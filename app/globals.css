@@ -42,7 +42,7 @@
 }
 
 .rectangle {
-  transform: translateX(-10vw) rotate(20deg);
+  transform: translateX(calc(0vw - 200px)) rotate(20deg);
   transition: transform 2000ms;
 }
 .card:hover .rectangle {

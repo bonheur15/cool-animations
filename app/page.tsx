@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Card from "./components/Card";
+import Long from "./components/Long";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Card />
         </div>
       </div>
+      <Long />
     </>
   );
 }
